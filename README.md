@@ -30,20 +30,20 @@
   <tr align="center">
     <td>1000x1000</td>
     <td>0.08</td>
-    <td>0.0086</td>
-    <td>9.3</td>
+    <td>0.0225</td>
+    <td>3.56</td>
   </tr>
   <tr align="center">
     <td>5000x5000</td>
     <td>1.67</td>
-    <td>0.0829</td>
-    <td>20.14</td>
+    <td>0.2163</td>
+    <td>7.72</td>
   </tr>
   <tr align="center">
     <td>10000x10000</td>
     <td>6.86</td>
-    <td>0.2798</td>
-    <td>24.52</td>
+    <td>0.8041</td>
+    <td>8.53</td>
   </tr>
   <tr align="center">
     <td>20000x20000</td>
