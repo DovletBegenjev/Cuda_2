@@ -122,11 +122,6 @@ int main(int argc, char** argv)
 	// Копирование данных из видеопамяти в оперативную память
     cudaMemcpy(S, d_S, ((arr_size + block_size - 1) / block_size) * sizeof(float), cudaMemcpyDeviceToHost);
 	
-	/*for (int i = 0; i < arr_size; ++i)
-	{
-		cout << S[i];
-	}*/
-	
 	float sqrtS = 0;
 	for (int i = 0; i < ((arr_size + block_size - 1) / block_size); ++i)
 	{
@@ -137,7 +132,7 @@ int main(int argc, char** argv)
 	
 	//cudaDeviceSynchronize();
 		
-	//sum<<<grid, block>>>(d_arr1, d_arr2, d_arr3, sqrtS);
+	sum<<<grid, block>>>(d_arr1, d_arr2, d_arr3, sqrtS);
 	
 	// Копирование данных из видеопамяти в оперативную память
     cudaMemcpy(arr3, d_arr3, arr_size * arr_size * sizeof(float), cudaMemcpyDeviceToHost);
