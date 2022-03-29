@@ -13,7 +13,7 @@
   </tr>
   <tr align="center">
     <td>1</td>
-    <td>10x10, 10000x10000</td>
+    <td>10 x 10, 10 000 x 10 000</td>
     <td>float</td>
     <td>Вычислить матрицу C = ‖A‖ * A + B - A, ‖A‖ –  евклидова норма матрицы</td>
   </tr>
@@ -28,27 +28,27 @@
     <th>Время параллельного алгоритма (с разделяемой памятью), сек.</th>
   </tr>
   <tr align="center">
-    <td>1000x1000</td>
+    <td>1 000 x 1 000</td>
     <td>0.08</td>
     <td>0.03</td>
     <td>0.0225</td>
   </tr>
   <tr align="center">
-    <td>5000x5000</td>
+    <td>5 000 x 5 000</td>
     <td>1.67</td>
     <td>0.4</td>
     <td>0.2163</td>
   </tr>
   <tr align="center">
-    <td>10000x10000</td>
+    <td>10 000 x 10 000</td>
     <td>6.86</td>
-    <td>1.55</td
+    <td>1.55</td>
     <td>0.8041</td>
   </tr>
   <tr align="center">
-    <td>20000x20000</td>
+    <td>20 000 x 20 000</td>
     <td>26.74</td>
-    <td>2.25</td
+    <td>2.25</td>
     <td>1.1765</td>
   </tr>
  </table> 
@@ -57,22 +57,27 @@
   <caption>Ускорение</caption>
   <tr>
     <th>Размерность массива или матрицы</th>
-    <th>Ускорение</th>
+    <th>Ускорение (только общая память)</th>
+    <th>Ускорение (с разделяемой памятью)</th>
   </tr>
   <tr align="center">
-    <td>1000x1000</td>
+    <td>1 000 x 1 000</td>
     <td>2.67</td>
+    <td>3.56</td>
   </tr>
   <tr align="center">
-    <td>5000x5000</td>
+    <td>5 000 x 5 000</td>
     <td>4.17</td>
+    <td>7.72</td>
   </tr>
   <tr align="center">
-    <td>10000x10000</td>
+    <td>10 000 x 10 000</td>
     <td>4.42</td>
+    <td>8.53</td>
   </tr>
   <tr align="center">
-    <td>20000x20000</td>
+    <td>20 000 x 20 000</td>
     <td>11.88</td>
+    <td>22.73</td>
   </tr>
  </table> 
