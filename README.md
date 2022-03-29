@@ -43,13 +43,13 @@
     <td>10000x10000</td>
     <td>6.86</td>
     <td>1.55</td
-    
+    <td>0.8041</td>
   </tr>
   <tr align="center">
     <td>20000x20000</td>
     <td>26.74</td>
     <td>2.25</td
-    
+    <td>1.1765</td>
   </tr>
  </table> 
  
